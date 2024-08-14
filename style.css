@@ -1,0 +1,103 @@
+body {
+    background-color: #ef705a;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ef705a;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header nav ul {
+    background-color: #ef705a;
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    margin: 1em 0;
+    text-align: center;
+}
+
+section#home {
+    background-color: #f4f4f4;
+}
+
+section#services, section#gallery, section#contact {
+    background-color: #e2e2e2;
+}
+
+section#about, section#reviews, section#sponsors, section#newsletter {
+    background-color: #f4f4f4;
+}
+
+.review, .gallery-item {
+    margin: 1em 0;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 0.5em 0 0.2em;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    width: 80%;
+    max-width: 500px;
+}
+
+form button {
+    padding: 0.7em 2em;
+    background-color: #4b8ee6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #7aa7e3;
+}
+
+
+
+footer {
+    background-color: #ef705a;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Active class */
+.active {
+    font-weight: bold;
+    color: #fcfbfb; /* Optional: change the color to highlight */
+    /*padding: 15px 15px; /* Increase padding to make the height increase */
+    text-decoration-line: underline;
+}
